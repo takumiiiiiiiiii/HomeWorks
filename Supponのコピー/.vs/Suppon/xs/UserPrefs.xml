@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{F8736A4C-597B-4179-FE93-57240D3B6FD5}|">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a5f39f74-9206-4c67-97da-ae53acbfd91f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Player/Supponn.cs">
+    <Files>
+      <File FileName="Assets/scripts/Player/Supponn.cs" Line="64" Column="32" />
+      <File FileName="Assets/scripts/Enemys/Bullet.cs" />
+      <File FileName="Assets/scripts/Enemys/Spone.cs" />
+      <File FileName="Assets/scripts/System/ScoreBar.cs" />
+      <File FileName="Assets/scripts/System/Shape.cs" />
+      <File FileName="Assets/scripts/System/Camerashake.cs" />
+      <File FileName="Assets/scripts/System/CameraControler.cs" />
+      <File FileName="Assets/scripts/Objects/Speed.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Suppon">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="Enemys" expanded="True" />
+                <Node name="Objects" expanded="True" />
+                <Node name="Player" expanded="True">
+                  <Node name="Supponn.cs" selected="True" />
+                </Node>
+                <Node name="System" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
