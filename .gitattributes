@@ -1,0 +1,2 @@
+libplateau.so filter=lfs diff=lfs merge=lfs -text
+*.libplateau.so filter=lfs diff=lfs merge=lfs -text
