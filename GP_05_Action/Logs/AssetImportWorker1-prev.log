@@ -1,0 +1,1220 @@
+Unity Editor version:    6000.2.7f2 (2b518236b676)
+Branch:                  6000.2/respin/6000.2.7f1-2eb0c79396db
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 26.1 (Build 25B78)
+Darwin version:          25.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2025-12-01T00:46:37Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-x23029xx" at "2025-12-01T00:46:37.671572Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/x23029xx/GP_05_Action
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57975
+-licensingIpc
+LicenseClient-x23029xx
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/x23029xx/GP_05_Action
+/Users/x23029xx/GP_05_Action
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8369987712]  Target information:
+
+Player connection [8369987712]  * "[IP] 10.14.0.111 [Port] 0 [Flags] 2 [Guid] 3828124367 [EditorId] 3828124367 [Version] 1048832 [Id] OSXEditor(0,x23029xxnoMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8369987712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8369987712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 20.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.7f2 (2b518236b676)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/x23029xx/GP_05_Action/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Mac GPU Family: 2
+Apple GPU Family: 7
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1260, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              f5a78ca1cde04bb68ae1374b02908a85
+  Correlation Id:          ddb67871e36c5bd17055b4e2a61cc3a2
+  External correlation Id: 3214234803254413888
+  Machine Id:              gmoy2l2b/xKLJRyx4+PSBNolBTM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-x23029xx" (connect: 0.00s, validation: 0.01s, handshake: 1.70s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-x23029xx-notifications" at "2025-12-01T00:46:39.375048Z"
+[Licensing::Module] Licensing Background thread has ended after 1.70s
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002644 seconds.
+- Loaded All Assemblies, in  0.730 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 1276ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (228ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (300ms)
+				TypeCache.ScanAssembly (272ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (60ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 15668201910297-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.129 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.997 seconds
+Domain Reload Profiling: 2118ms
+	BeginReloadAssembly (228ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (770ms)
+		LoadAssemblies (605ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (216ms)
+				TypeCache.ScanAssembly (196ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (997ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (732ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launching external process: /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6290 unused Assets / (4.5 MB). Loaded Objects now: 6996.
+Memory consumption went from 130.4 MB to 125.9 MB.
+Total: 10.224292 ms (FindLiveObjects: 0.905375 ms CreateObjectMapping: 0.294500 ms MarkObjects: 6.011000 ms  DeleteObjects: 3.012750 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 33456.446654 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(337abb149c0474eefa3e9b927c2c90c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/Enemy.cs using Guid(337abb149c0474eefa3e9b927c2c90c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60ace388db21382ff5d8f6edb8572d85') in 0.152364792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4134a2f918a78ad74b89ebf42324fff4') in 0.015065625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '587182d6d9d857d97f51620e98cf845c') in 0.063962416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scripts/enemybullet.cs
+  artifactKey: Guid(92d0f184be1d44b379bb8753ab63fbf0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/enemybullet.cs using Guid(92d0f184be1d44b379bb8753ab63fbf0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82e6b22a77ae86c948e84e39641b34f1') in 0.00372075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56b2738d559ad6f033143e951ddabd23') in 0.005073041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Matelials/New Material 3.mat
+  artifactKey: Guid(3ff9ed8d647e24ae782e8d89096671b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Matelials/New Material 3.mat using Guid(3ff9ed8d647e24ae782e8d89096671b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c69ad08c2064783724291e6af748f4fa') in 0.019548041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93de102dec57b410a8f8b2bfeaa574ca') in 0.003451583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '236668de62abad24ecc63c74d6828d71') in 0.048982791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b98b2be7e38af31c5f82a6d56e37550') in 0.042333917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Matelials/New Material 2.mat
+  artifactKey: Guid(036fe680543bc455ba9e688fd63f3015) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Matelials/New Material 2.mat using Guid(036fe680543bc455ba9e688fd63f3015) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdaa3cd3e73ae189ae90e83718fdab6a') in 0.007679541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/GameManeger.cs
+  artifactKey: Guid(9bdb0575ba4294e6285e93711b757c3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/GameManeger.cs using Guid(9bdb0575ba4294e6285e93711b757c3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49aa56dae0ee1ac48baeae43602c1daf') in 0.004381917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/壁にヒビ1.mp3
+  artifactKey: Guid(893e3c49c56e34074be87acafd27025c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/壁にヒビ1.mp3 using Guid(893e3c49c56e34074be87acafd27025c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a2d11cd0114b155eab0f4660d4d68fe') in 0.029269416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1335fcd864b77d2456749e3d31cbb7f') in 0.005366542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Utc_sum_humanoid.fbx
+  artifactKey: Guid(fa9a8f88311d9884698ea205e4b15297) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Utc_sum_humanoid.fbx using Guid(fa9a8f88311d9884698ea205e4b15297) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3776cfc2768bd684c9bf8deb5b7cb2a4') in 0.079661417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UnityChan/Scripts/SpringManager.cs
+  artifactKey: Guid(6514ba86f976d724ab63844a6015b2aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/Scripts/SpringManager.cs using Guid(6514ba86f976d724ab63844a6015b2aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b48ba7d89010a4d8ccbd025871b49a5') in 0.005249625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '753f9c910dbf0980433ee179ad56e14c') in 0.028493167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/NewMonoBehaviourScript.cs
+  artifactKey: Guid(06a449a13a9474c2fbdceaf3593a57b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/NewMonoBehaviourScript.cs using Guid(06a449a13a9474c2fbdceaf3593a57b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2eff93675c88121be14aee64e3ba5c0') in 0.007548625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '170956012825d58fb2348a47244b4df3') in 0.004715417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scripts/ScoreItem.cs
+  artifactKey: Guid(241f1859135e64505ad4c68d55081781) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ScoreItem.cs using Guid(241f1859135e64505ad4c68d55081781) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0818346b1d337054359e2f93c1c0959f') in 0.004112125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
+  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52c6d5fbcf7ff43b0f85e140d17da6e0') in 0.037942875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Matelials/Physics.physicMaterial
+  artifactKey: Guid(8c6ef4b7ac0a5432d9b20efe4ac33a0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Matelials/Physics.physicMaterial using Guid(8c6ef4b7ac0a5432d9b20efe4ac33a0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '950ca53838a30ab9098a5db27eb6819a') in 0.00569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Scripts/CubeMove.cs
+  artifactKey: Guid(74c5bee627edc42279b4986927b0ea73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/CubeMove.cs using Guid(74c5bee627edc42279b4986927b0ea73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4830f9444b59fd5381b3a7162bcc98c9') in 0.004294541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Scenes/Misaki_sum.unity
+  artifactKey: Guid(276b712198de8ac44812393cdec59403) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Scenes/Misaki_sum.unity using Guid(276b712198de8ac44812393cdec59403) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66b619db0bf05a30c179fc599b131624') in 0.00652475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Scenes/Yuko_win.unity
+  artifactKey: Guid(c223c4fa12e0ed24596244622801548d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Scenes/Yuko_win.unity using Guid(c223c4fa12e0ed24596244622801548d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7268131cd4ba326efcd2c4778bee1fb9') in 0.004591791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/far-explosion-2.mp3
+  artifactKey: Guid(4596d54bac0164534986daf030578d45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/far-explosion-2.mp3 using Guid(4596d54bac0164534986daf030578d45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fc658e8c979274197be55540e869951') in 0.030553833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityChan/Scripts/CameraController.cs
+  artifactKey: Guid(bd026706e81db0440add962177d87b23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/Scripts/CameraController.cs using Guid(bd026706e81db0440add962177d87b23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f393afb0a1571b767690a009d95ca62') in 0.003773667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3aa8d0a9d4f95878a2b866ecddd48804') in 0.00619725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Utc_win_humanoid.fbx
+  artifactKey: Guid(533371e7422b091489bd9f7e927cdc49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Utc_win_humanoid.fbx using Guid(533371e7422b091489bd9f7e927cdc49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fac35b28ef6dd7639341a34f66dea7cc') in 0.022797459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 262
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scripts/addScore.cs
+  artifactKey: Guid(f5d8e120bbac44b70a0c279df346e970) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/addScore.cs using Guid(f5d8e120bbac44b70a0c279df346e970) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd4d7d51eb50e28c61545f35ddaad1ce') in 0.004061833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de2e96958e6c27bb2f6727c8f0276181') in 0.004549625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Settings/PC_Renderer.asset
+  artifactKey: Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_Renderer.asset using Guid(f288ae1f4751b564a96ac7587541f7a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbbf9475d84a2f3a1589ea5af0f069ff') in 0.0363765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scripts/RideOnOff.cs
+  artifactKey: Guid(3648764c9ca7b4fd6b36c3a73e7d0d3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RideOnOff.cs using Guid(3648764c9ca7b4fd6b36c3a73e7d0d3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f7c9b73ac6c0bd0fccf5732e8d060c8') in 0.004854917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/SD_Uniform_KohakuChanz_motion_humaoid.fbx
+  artifactKey: Guid(dc7b6656cda8bfa4c84b8a51105de829) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/SD_Uniform_KohakuChanz_motion_humaoid.fbx using Guid(dc7b6656cda8bfa4c84b8a51105de829) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69d1a85e8bf84dcb29d160ab1881d492') in 0.1107405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 289
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/UnityChan/License/UCL2.02/Japanese/02Unity-Chan License Terms and Condition_Summary_JP_UCL2.02.pdf
+  artifactKey: Guid(39b3c5211f8fdaa419992ffe9e3e72de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/Japanese/02Unity-Chan License Terms and Condition_Summary_JP_UCL2.02.pdf using Guid(39b3c5211f8fdaa419992ffe9e3e72de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6510b4ba96d9e8404e17c4c2a125699c') in 0.010677875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/LUUL_LOGO_rules02.ai
+  artifactKey: Guid(a7f09b7516d08174f9186e40e9c86c89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/LUUL_LOGO_rules02.ai using Guid(a7f09b7516d08174f9186e40e9c86c89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66f70a227f5aa86a1e053f143905ab7a') in 0.007618125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/UnityChan/License/UCL2.02/Japanese/03Indication of License_JP_UCL2.02.pdf
+  artifactKey: Guid(64beeb19979a06b418c9283c1ba8bdcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/Japanese/03Indication of License_JP_UCL2.02.pdf using Guid(64beeb19979a06b418c9283c1ba8bdcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75df880dee31aa3d2412c0f3deabe354') in 0.00485525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/LUUL_logo-guideline.pdf
+  artifactKey: Guid(c078c601884a4394e871f403c1476b23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/LUUL_logo-guideline.pdf using Guid(c078c601884a4394e871f403c1476b23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49eb6837688cdf9a8ee0fbf6c93121e6') in 0.00419175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Misaki_win_humanoid.prefab
+  artifactKey: Guid(ada6fe60e74b3c84f852f19a76d76872) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Misaki_win_humanoid.prefab using Guid(ada6fe60e74b3c84f852f19a76d76872) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cde7c2859cca6df80b0b0621b584abb') in 0.060046791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 494
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfe324e1f89d5a660bccc8890e0aabb0') in 0.005765125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs
+  artifactKey: Guid(9001bcbd91e76437cb0f52f12764f2f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs using Guid(9001bcbd91e76437cb0f52f12764f2f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaf2677e001738e142d30b97c5aac2e4') in 0.004615166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/strain.anim
+  artifactKey: Guid(452a77b2583e48541b6245cd3d2130b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/strain.anim using Guid(452a77b2583e48541b6245cd3d2130b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0203f9b742071e130e7a52319d5e1be2') in 0.00639175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/angry.anim
+  artifactKey: Guid(b12705bcc0f99434fb185a23068543a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/angry.anim using Guid(b12705bcc0f99434fb185a23068543a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b6e749d81a1a9c39f907af1231ba075') in 0.010403208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/confuse.anim
+  artifactKey: Guid(6ccc38a7c52beab4b84cf22bdaea38c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/confuse.anim using Guid(6ccc38a7c52beab4b84cf22bdaea38c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26d17b955fd04346a0209ab4cc7c3bb4') in 0.00608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/surprise.anim
+  artifactKey: Guid(74059cbefed18a348a2baa50bfbb1fb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/surprise.anim using Guid(74059cbefed18a348a2baa50bfbb1fb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9a4724f70da4fcb9a9873b2a3fb465b') in 0.005974292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UnityChan/License/UCL2.02/Japanese/01Unity-Chan License Terms and Condition_JP_UCL2.02.pdf
+  artifactKey: Guid(2db60ef2469616e42afb2b3b9d7ed668) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/Japanese/01Unity-Chan License Terms and Condition_JP_UCL2.02.pdf using Guid(2db60ef2469616e42afb2b3b9d7ed668) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd70f3c4945e3614602ef99ba3040a5b4') in 0.003862875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Scripts/ColliderVisualizer.cs
+  artifactKey: Guid(28e4d1730e17a47c78ba574eb34d6d6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ColliderVisualizer.cs using Guid(28e4d1730e17a47c78ba574eb34d6d6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '195128d12023293db0136c23cdebb93f') in 0.003450542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Yuko_win_humanoid.fbx
+  artifactKey: Guid(346b04ba3952add4f9b34ca9a0dbc322) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Yuko_win_humanoid.fbx using Guid(346b04ba3952add4f9b34ca9a0dbc322) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2895fcca7ab65f65e7c560c669eac0f1') in 0.0236245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 226
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6851294e4c5bc8bbdfb0c711e9d5bb1') in 0.003593416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1ee9f7a54ab4c712fc42a032cb43131') in 0.003941666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddf151b7c3ac0a58646520024c3ccd9f') in 0.030129125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13c923e85a5bb809bc70713b50b102a4') in 0.01121375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/smile.anim
+  artifactKey: Guid(5aa61c8a1b86d46498ec2ef6f46bca4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/smile.anim using Guid(5aa61c8a1b86d46498ec2ef6f46bca4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4483200f0ada8f9a29f21ccc91d5752') in 0.017935791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/mth_R.anim
+  artifactKey: Guid(cb3828e66b00a344dac8e7595b268a2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/mth_R.anim using Guid(cb3828e66b00a344dac8e7595b268a2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ab149100dcb553eaf6ff98d76ab6bc3') in 0.005433708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/sad.anim
+  artifactKey: Guid(b25b47b8477ed6b42ab855314194db65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/sad.anim using Guid(b25b47b8477ed6b42ab855314194db65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d60436050b7b38d82f315e199511cf2') in 0.007583416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Scenes/Misaki_win.unity
+  artifactKey: Guid(d29b6e4bbaf27fa43b81c5359c5a94f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Scenes/Misaki_win.unity using Guid(d29b6e4bbaf27fa43b81c5359c5a94f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '487df0b1fa290342b943402c73b7a804') in 0.005201333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/mth_i.anim
+  artifactKey: Guid(339860ac6c9c2a345806557da8297872) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/mth_i.anim using Guid(339860ac6c9c2a345806557da8297872) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '416eb110d9d7d270f94bd4219532910a') in 0.005353583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/mth_a.anim
+  artifactKey: Guid(3511f56cd3ed7624f90599ab09b41efc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/mth_a.anim using Guid(3511f56cd3ed7624f90599ab09b41efc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd67f56262dc094f8f6352965cb67b9f') in 0.005638292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '943177583c4a8cac69b429b3f2cc05be') in 0.003880209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0bc3275e78497a8ea6db2475e1f3936') in 0.005893833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
+  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f07eb1ad4115185e06ebe6772a2d2bb') in 0.0316475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Matelials/New Material 1.mat
+  artifactKey: Guid(72cdfb9ba65f747e8a9fcbd3610fb724) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Matelials/New Material 1.mat using Guid(72cdfb9ba65f747e8a9fcbd3610fb724) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd685588f6ac1c3153753348628782e50') in 0.005586041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Misaki_sum_humanoid.fbx
+  artifactKey: Guid(0ad9ae7f3d8792e4ab3bcb3f5d7175da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Misaki_sum_humanoid.fbx using Guid(0ad9ae7f3d8792e4ab3bcb3f5d7175da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5aaffbaab72fac2b5b66aa887e170930') in 0.031668542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 326
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/surprise.anim
+  artifactKey: Guid(e802d9e8bfef42b4080f1f1160736639) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/surprise.anim using Guid(e802d9e8bfef42b4080f1f1160736639) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '389d321bf556687368850a4d1f5f5416') in 0.009066416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/relax.anim
+  artifactKey: Guid(5818efaedc3502443a380ac5d39e1b63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/relax.anim using Guid(5818efaedc3502443a380ac5d39e1b63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02dc1da07d98804a152b0ad12b4ab77c') in 0.005662666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Kohaku_Main_NoOutline.mat
+  artifactKey: Guid(3dd705f8c4fc1c84a8fd7b19a77e9e58) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Kohaku_Main_NoOutline.mat using Guid(3dd705f8c4fc1c84a8fd7b19a77e9e58) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0da9ae307456db32178b407d652e8a9') in 0.040410417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Misaki_Main.mat
+  artifactKey: Guid(4a84cf09ecccfc9449565d5dcd601773) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Misaki_Main.mat using Guid(4a84cf09ecccfc9449565d5dcd601773) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '446ce68f36a5d2521ec93d198a3981b1') in 0.022695417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/sad.anim
+  artifactKey: Guid(d2d64640e98bacb4e8af4be9560d7794) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/sad.anim using Guid(d2d64640e98bacb4e8af4be9560d7794) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad6291e55945d64ff415af28d61babf2') in 0.005910667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/SB_Skin.mat
+  artifactKey: Guid(f0dd3d20f834ba24187b2243edf18176) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/SB_Skin.mat using Guid(f0dd3d20f834ba24187b2243edf18176) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db7354bfe796f3de465729384af4130a') in 0.019932334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/LUUL_logo-guideline_en.pdf
+  artifactKey: Guid(4c957ef222504164297671aee6634507) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/LUUL_logo-guideline_en.pdf using Guid(4c957ef222504164297671aee6634507) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '349fcfaf98c51497faa66cb8ac383f59') in 0.003903583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Utc_win_humanoid.prefab
+  artifactKey: Guid(7e0f7737a40453040a6beb5f9d8a599b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Utc_win_humanoid.prefab using Guid(7e0f7737a40453040a6beb5f9d8a599b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e17c9b67659466b83ba8d68d55f51e1c') in 0.044550166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 411
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/damaged.anim
+  artifactKey: Guid(81aca8914e1dafb439791eb4be071529) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/damaged.anim using Guid(81aca8914e1dafb439791eb4be071529) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '213a117d6f056d1f3a68ce8487b7c145') in 0.005441875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '606ca904ec18b018485c7e407f186bce') in 0.177668125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/misaki_head_normal.tga
+  artifactKey: Guid(0fb69fcd03d37964898b0a61f369f1ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/misaki_head_normal.tga using Guid(0fb69fcd03d37964898b0a61f369f1ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8b1d1e4c92652d05b9441323e6b9e40') in 0.012436084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/utc_all2.tga
+  artifactKey: Guid(f2b3aafc05f0f354c9ee4893cf8a24ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/utc_all2.tga using Guid(f2b3aafc05f0f354c9ee4893cf8a24ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7cd9436c46ae62454b55ac2d67977d7') in 0.015343083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/smile2.anim
+  artifactKey: Guid(3eb5cae57a696bb46a43b9bf2d3db3cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/smile2.anim using Guid(3eb5cae57a696bb46a43b9bf2d3db3cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40f5db07d480741b05176b0eaf80b1d2') in 0.005725959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/UnityChan/Scripts/AutoBlink.cs
+  artifactKey: Guid(0a6149a22cf8a47a192a60b00b3becb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/Scripts/AutoBlink.cs using Guid(0a6149a22cf8a47a192a60b00b3becb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e2dfacd1ca9c728f2e7511c14f0fdd9') in 0.003557375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/smile.anim
+  artifactKey: Guid(c5a9e136fb952c040b5e65783e7c7964) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/smile.anim using Guid(c5a9e136fb952c040b5e65783e7c7964) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e4a01fd80fbea200d77ea9acbcb0289') in 0.006320459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(4e58bd37a62c540f883a02958f65b03c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(4e58bd37a62c540f883a02958f65b03c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99f84ac7da145080c76aee619b19035a') in 0.025753083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/eiyorei.mp3
+  artifactKey: Guid(bdffa90c577c64ce29eac3cae446018d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/eiyorei.mp3 using Guid(bdffa90c577c64ce29eac3cae446018d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2228104eef79009f7f22c943a64101ba') in 0.035997125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/body_spec.tga
+  artifactKey: Guid(70bc7d3768ac0ba45bf54d9ac151d829) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/body_spec.tga using Guid(70bc7d3768ac0ba45bf54d9ac151d829) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cdee326347f6c41cc5643f0c784ec2a') in 0.01379025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/mth_L.anim
+  artifactKey: Guid(01e642e0aae05f34eb0859a0438757a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/UTC_face/mth_L.anim using Guid(01e642e0aae05f34eb0859a0438757a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b27c8c91902034630243283039fafb16') in 0.006489583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/Others/svg/Dark_Silhouette.svg
+  artifactKey: Guid(603a866347abaf44d9dc25d064a0bdbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/Others/svg/Dark_Silhouette.svg using Guid(603a866347abaf44d9dc25d064a0bdbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94e26952323d0e7467755b3ce6300207') in 0.003244792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/Others/svg/Light_Silhouette.svg
+  artifactKey: Guid(438471d8bbbd38f438e429426aea1dda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/Others/svg/Light_Silhouette.svg using Guid(438471d8bbbd38f438e429426aea1dda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60ff894b3b192b3c1c564f166e909430') in 0.00335725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7882150a5614856fd488ddef7b248574') in 0.005019792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/default.anim
+  artifactKey: Guid(47313c1d3bed36048ad43fce4bfd647f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/default.anim using Guid(47313c1d3bed36048ad43fce4bfd647f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3de966e92a2e8cf80b580d2b75ea1313') in 0.00622575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/WB_Skin.mat
+  artifactKey: Guid(776494b6c9778f14698edabb7b30939c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/WB_Skin.mat using Guid(776494b6c9778f14698edabb7b30939c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9767c42ce6278cc141714bc783a6658f') in 0.016718875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/confuse.anim
+  artifactKey: Guid(6f72529eecb2da548a86fa56a920855a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/confuse.anim using Guid(6f72529eecb2da548a86fa56a920855a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fb78f5ef1a5a31279f2213d882dffc9') in 0.006094791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/Others/jpg/Light_Silhouette.jpg
+  artifactKey: Guid(d2d2219bc6ba91a4b8b764640fd57217) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/Others/jpg/Light_Silhouette.jpg using Guid(d2d2219bc6ba91a4b8b764640fd57217) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1385cf96c3bb0d8ed10f46dd99f698e9') in 0.012875375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/mth_i.anim
+  artifactKey: Guid(bad28854072081e408177ec055f447cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/mth_i.anim using Guid(bad28854072081e408177ec055f447cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91106545245e33477a8de1a545aba511') in 0.004704083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/misaki_head.tga
+  artifactKey: Guid(1c912bb4dd74a464293b6edd5bbc17a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/misaki_head.tga using Guid(1c912bb4dd74a464293b6edd5bbc17a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2812d2b318575238baee29160cc6beee') in 0.011194334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/Others/svg/Light_Frame.svg
+  artifactKey: Guid(2fd1af90f223a0e4b94404183dc2bf80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/Others/svg/Light_Frame.svg using Guid(2fd1af90f223a0e4b94404183dc2bf80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9685777dea150a54c8d30ed1cf070519') in 0.003366666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Kohaku_Main_CullingOff.mat
+  artifactKey: Guid(f26f0515c4d81fc4fb64630434b45017) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Kohaku_Main_CullingOff.mat using Guid(f26f0515c4d81fc4fb64630434b45017) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34cd6e0ee5d6185f350007f593151be0') in 0.014222834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/damaged.anim
+  artifactKey: Guid(0eb01197404b6844381dc3ac95a82cf4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/damaged.anim using Guid(0eb01197404b6844381dc3ac95a82cf4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3a10ba7a5b1c1c2cd8205c04488483b') in 0.006047916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/Others/png/Dark_Silhouette.png
+  artifactKey: Guid(5355a7436e76d494da0eaa594b4b0767) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/Others/png/Dark_Silhouette.png using Guid(5355a7436e76d494da0eaa594b4b0767) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28c7fdb99e18d8198aabb87f12f49f6b') in 0.011315208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/UnityChan/License/UCL2.02/License Logo/Others/png/Light_Silhouette.png
+  artifactKey: Guid(39df89ef20c6e0e44ba0a62e1d2907ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/License Logo/Others/png/Light_Silhouette.png using Guid(39df89ef20c6e0e44ba0a62e1d2907ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67018bf71b4c9b4b0bcf24f236521e2c') in 0.016003917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/body_win.tga
+  artifactKey: Guid(cdb2547825154324aa9b333563cdee4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/body_win.tga using Guid(cdb2547825154324aa9b333563cdee4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7255d5098a0840dfe3883a32e04ad30') in 0.011136542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Scenes/LightingSettings/Misaki_sumSettings.lighting
+  artifactKey: Guid(dc2afa9c316c0404e87440273ce0d7d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Scenes/LightingSettings/Misaki_sumSettings.lighting using Guid(dc2afa9c316c0404e87440273ce0d7d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '964def993ee9604a0f3c765ff6953e54') in 0.01065475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Scripts/ColorTrigger.cs
+  artifactKey: Guid(eeffc47a0199e405c89c866eb305ad18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ColorTrigger.cs using Guid(eeffc47a0199e405c89c866eb305ad18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7b309f7baa3efcd22351c3e4260c393') in 0.003846375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de6f087596e7acfea7267aee333beb17') in 0.012244292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/sound 2.prefab
+  artifactKey: Guid(f82bad2ea1e5c4c2e99093ccab89c670) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sound 2.prefab using Guid(f82bad2ea1e5c4c2e99093ccab89c670) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89f8b9e416c0577a1c96a552c56d5f12') in 0.005878875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c75980775f60cff782ed8c8373fc76d') in 0.00282925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/UnityChan/Scripts/FaceUpdate.cs
+  artifactKey: Guid(5e658bfc1e524494b9e54a1c92d8c1e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/Scripts/FaceUpdate.cs using Guid(5e658bfc1e524494b9e54a1c92d8c1e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2a16f28fc1018b16a72cfc7828e6b53') in 0.00362125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/confuse.anim
+  artifactKey: Guid(26a3932144153c044ab5c9b952f44e6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/confuse.anim using Guid(26a3932144153c044ab5c9b952f44e6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '91b3f7f3d044e329a75be34bb708e740') in 0.005647083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/sound.prefab
+  artifactKey: Guid(ab851b33bbf964a19bc7e0855bc55d02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/sound.prefab using Guid(ab851b33bbf964a19bc7e0855bc55d02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '883f3ebf371d0759e2c62d9d17b6b81e') in 0.005194292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Prefabs/sound 2.prefab
+  artifactKey: Guid(bcdb225e4d0f74960abdfd378436e13a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/sound 2.prefab using Guid(bcdb225e4d0f74960abdfd378436e13a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18b4926b06b85ae3ae4c617ad89ff2d2') in 0.008191125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/mth_a.anim
+  artifactKey: Guid(f60c9541242b5c04ea78ae1347173831) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/mth_a.anim using Guid(f60c9541242b5c04ea78ae1347173831) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62521ba9b0989757ac2d27584e468895') in 0.005061916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Yuko_Main.mat
+  artifactKey: Guid(420340eb1d273974f994fed7a218927f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Yuko_Main.mat using Guid(420340eb1d273974f994fed7a218927f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dff2f245682131c552b2791ebc26129b') in 0.017568584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/smile2.anim
+  artifactKey: Guid(27d76b1a2d1028a4e96ef4674213b76b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Yuko_face/smile2.anim using Guid(27d76b1a2d1028a4e96ef4674213b76b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3173ce922bd839485bae8322b11fafa4') in 0.005229416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UnityChan/License/UCL2.02/English/03Indication of License_EN_UCL2.02.pdf
+  artifactKey: Guid(96de683f1d174744099b06dc426f6d2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/License/UCL2.02/English/03Indication of License_EN_UCL2.02.pdf using Guid(96de683f1d174744099b06dc426f6d2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11f0f6bb5017809ceb1bb85c1b2170ac') in 0.003481959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Yuko_sum_humanoid.prefab
+  artifactKey: Guid(441d3767f050bfc42987d96a4520af07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Yuko_sum_humanoid.prefab using Guid(441d3767f050bfc42987d96a4520af07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '489f1984dc0b3feefe14c718876b06a3') in 0.035707166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/破壊音_短い.mp3
+  artifactKey: Guid(403f57d9578494bfa9c797350a81d0a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/破壊音_短い.mp3 using Guid(403f57d9578494bfa9c797350a81d0a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b7fcde9c22e61da456a1447f6d002db') in 0.033137583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/UnityChan/Scripts/SpringBone.cs
+  artifactKey: Guid(37b7c58dc2d739b4c90fe59f6875debf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/Scripts/SpringBone.cs using Guid(37b7c58dc2d739b4c90fe59f6875debf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b759246bcf25899153d3af1edc91f09') in 0.004349083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Target.mat
+  artifactKey: Guid(b31a96faf9f25a941908823bcec3f7f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Materials/Target.mat using Guid(b31a96faf9f25a941908823bcec3f7f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39bc5a4669ea81cb8150fba4ca1fc75a') in 0.014619125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/body_sum.tga
+  artifactKey: Guid(89bd732c13b3731468c727187758e231) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/body_sum.tga using Guid(89bd732c13b3731468c727187758e231) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cea9cd3e82bb911e19061061af91bca4') in 0.014318125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/UnityChan/Scripts/IdleChanger.cs
+  artifactKey: Guid(058a2736f2afd564eae55007a87eed87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/Scripts/IdleChanger.cs using Guid(058a2736f2afd564eae55007a87eed87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '981e7b489be235e57f1e6f4c1fa35a75') in 0.008485333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Matelials/New Material 6.mat
+  artifactKey: Guid(f757fea69e6a94e8cb15329598d73e8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Matelials/New Material 6.mat using Guid(f757fea69e6a94e8cb15329598d73e8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce8455fbdc0af3ff2c399096c41c3acc') in 0.010476208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Yuko_win_humanoid.prefab
+  artifactKey: Guid(2774cf9769544e141996fef21c3e26e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Prefabs/Yuko_win_humanoid.prefab using Guid(2774cf9769544e141996fef21c3e26e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba8ec7bbc7e8110bdddc6341f06cc723') in 0.04587775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 363
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bed6ec7d0da67e81d92a4c4e84077ed') in 0.006139458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Matelials/New Material 5.mat
+  artifactKey: Guid(2d7514c6e97a342098d75c69edf68729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Matelials/New Material 5.mat using Guid(2d7514c6e97a342098d75c69edf68729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc76c8676f88889942398416c28906ab') in 0.007133208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/mth_a.anim
+  artifactKey: Guid(aa19c571b3f5f624a9621e6d720d53a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Animations/Misaki_face/mth_a.anim using Guid(aa19c571b3f5f624a9621e6d720d53a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64d0e11f85b4e6a0c98bb81ddedba7b7') in 0.005922333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e20a1a6107eab809ce9c68ada5ab795') in 0.004241584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8d40fcfca9b95b6b8ed5e5ae6a881dd') in 0.018574667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/DEFAULT_NORMAL.tga
+  artifactKey: Guid(ccfa6271abcc8664ea8ff39c7f02c34e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UnityChan/SD_Kohaku_chanz/Models/Textures/DEFAULT_NORMAL.tga using Guid(ccfa6271abcc8664ea8ff39c7f02c34e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72ca30768a418c9d4a6c82819f1fab06') in 0.018267208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9240b0d70f79b8ec4935eb914e904f15') in 0.030260916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{B3BF83B7-C12C-7976-0B38-716857CCD972}|">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Enemy/Box.cs">
+    <Files>
+      <File FileName="Assets/scripts/Enemy/Enemy.cs" />
+      <File FileName="Assets/scripts/Enemy/Speed.cs" />
+      <File FileName="Assets/scripts/EnemyShot/Bullet.cs" />
+      <File FileName="Assets/scripts/Player/Supponn.cs" />
+      <File FileName="Assets/scripts/EnemyShot/NormalShot.cs" />
+      <File FileName="Assets/scripts/EnemyShot/Homing.cs" />
+      <File FileName="Assets/scripts/Enemy/BBox.cs" />
+      <File FileName="Assets/scripts/Enemy/Box.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Enemy/BBBox.cs" />
+      <File FileName="Assets/scripts/EnemyShoot/ShotP2.cs" />
+      <File FileName="Assets/scripts/EnemyShoot/ShotP3.cs" />
+      <File FileName="Assets/scripts/EnemyShoot/ShotP1.cs" />
+      <File FileName="Assets/scripts/System/CameraControler.cs" />
+      <File FileName="Assets/scripts/Enemy/BBBBox.cs" />
+      <File FileName="Assets/scripts/UI/ScoreBar.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Supponng" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="Enemy" expanded="True">
+                  <Node name="Box.cs" selected="True" />
+                </Node>
+                <Node name="EnemyShoot" expanded="True" />
+                <Node name="EnemyShot" expanded="True" />
+                <Node name="Player" expanded="True" />
+                <Node name="System" expanded="True" />
+                <Node name="UI" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7ad28966-c295-451e-9571-95a9082c1508" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

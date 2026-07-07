@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{3E634078-444C-6EF6-26B3-307E612E77DC}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7a9f075b-0b88-43fd-9eb3-67fbbef49c9b" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/Enemy/Speed.cs">
+    <Files>
+      <File FileName="Assets/scripts/Enemy/BBox.cs" />
+      <File FileName="Assets/scripts/Player/Supponn.cs" />
+      <File FileName="Assets/scripts/Enemy/BBBBox.cs" />
+      <File FileName="Assets/scripts/UI/ScoreBar.cs" />
+      <File FileName="Assets/scripts/Enemy/BBBox.cs" />
+      <File FileName="Assets/scripts/System/Camerashake.cs" />
+      <File FileName="Assets/scripts/Enemy/Speed.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/EnemyShot/Homing.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Enemy/Box.cs" Line="12" Column="26" />
+      <File FileName="Assets/scripts/System/CameraControler.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Enemy/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/EnemyShot/Bullet.cs" Line="26" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Suppon NEO" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="scripts" expanded="True">
+                <Node name="Enemy" expanded="True">
+                  <Node name="Speed.cs" selected="True" />
+                </Node>
+                <Node name="EnemyShot" expanded="True" />
+                <Node name="Player" expanded="True" />
+                <Node name="System" expanded="True" />
+                <Node name="UI" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{3A993954-3B56-AFDD-8EBE-EE87E4C3AF91}|">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/addScore.cs">
+    <Files>
+      <File FileName="Assets/NewMonoBehaviourScript.cs" />
+      <File FileName="Assets/Scripts/CubeMove.cs" />
+      <File FileName="Assets/Scripts/SInMove.cs" />
+      <File FileName="Assets/Scripts/RideOnOff.cs" />
+      <File FileName="Assets/Scripts/ColliderVisualizer.cs" />
+      <File FileName="Assets/Scripts/bullet.cs" />
+      <File FileName="Assets/Scripts/enemybullet.cs" />
+      <File FileName="Assets/Scripts/Tank_bullet.cs" />
+      <File FileName="Assets/Scripts/Enemy.cs" />
+      <File FileName="Assets/Scripts/GameManeger.cs" />
+      <File FileName="Assets/Scripts/ColorTrigger.cs" />
+      <File FileName="Assets/Scripts/sound.cs" />
+      <File FileName="Assets/Scripts/PlayerController.cs" />
+      <File FileName="Assets/Scripts/PlayerCharaControle.cs" Line="39" Column="99" />
+      <File FileName="Assets/UnityChan/Scripts/FaceUpdate.cs" />
+      <File FileName="Assets/Scripts/Replay.cs" Line="1" Column="1" />
+      <File FileName="Assets/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs" />
+      <File FileName="Assets/Scripts/addScore.cs" Line="23" Column="37" />
+      <File FileName="Assets/Scripts/break_wall.cs" Line="21" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GP_05_Action" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Prefabs" expanded="True" />
+              <Node name="Scripts" expanded="True" />
+              <Node name="UnityChan" expanded="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fbe0137a-2a4d-450e-89c4-756eb481043e" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
